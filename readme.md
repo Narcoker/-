@@ -1,5 +1,9 @@
 ## 퍼즐 맞추기 게임 with 바닐라 JS
 
+### 링크
+
+[퍼즐 맞추기 게임 with 바닐라 JS](https://narcoker.github.io/PuzzleGame-with-VanillaJS/)
+
 ### 개요
 
 3x3 크기의 퍼즐을 맞추는 게임입니다.
