@@ -35,7 +35,6 @@ section h1 {
 .sidebar > .card {
   width: 140px;
   height: 140px;
-  background-color: white;
   margin: 5px 0;
 }
 .sidebar > .card img {
@@ -53,7 +52,6 @@ section h1 {
   float: left;
   width: 250px;
   height: 250px;
-  background-color: white;
   margin: 2px;
 }
 
