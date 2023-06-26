@@ -3,6 +3,24 @@ window.onload = () => puzzleInit(sideBarCards, boardCards);
 const sideBarCards = document.querySelectorAll(".sidebar .card img");
 const boardCards = document.querySelectorAll(".board .card img");
 
+// 드래그 이벤트 설정
+sideBarCards.forEach(setDragEvent);
+boardCards.forEach(setDragEvent);
+
+function setDragEvent(el) {
+  el.addEventListener("dragstart", (event) => {
+    event.dataTransfer.setData("text/plain", event.target.id);
+  });
+  el.addEventListener("dragover", (event) => {
+    event.preventDefault();
+  });
+  el.addEventListener("drop", (event) => {
+    const id = event.dataTransfer.getData("text/plain");
+    const startEl = document.getElementById(id);
+    [event.target.src, startEl.src] = [startEl.src, event.target.src];
+  });
+}
+
 // 게임 초기화
 function puzzleInit(sideBarCards, boardCards) {
   clearSidebar(sideBarCards);
