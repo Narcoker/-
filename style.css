@@ -38,6 +38,10 @@ section h1 {
   background-color: white;
   margin: 5px 0;
 }
+.sidebar > .card img {
+  width: inherit;
+  height: inherit;
+}
 /* board */
 .board {
   display: grid;
@@ -51,6 +55,11 @@ section h1 {
   height: 250px;
   background-color: white;
   margin: 2px;
+}
+
+.board > .card img {
+  width: inherit;
+  height: inherit;
 }
 
 /* button */

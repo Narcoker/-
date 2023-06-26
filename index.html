@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Do it! Puzzle</title>
   </head>
   <body>
@@ -12,11 +12,11 @@
       <h1>Do it! Puzzle</h1>
       <div class="wrapper">
         <div class="sidebar left">
-          <div class="card"><img src="" alt="" /></div>
-          <div class="card"><img src="" alt="" /></div>
-          <div class="card"><img src="" alt="" /></div>
-          <div class="card"><img src="" alt="" /></div>
-          <div class="card"><img src="" alt="" /></div>
+          <div class="card"><img id="sideCard1" src="" alt="" /></div>
+          <div class="card"><img id="sideCard2" src="" alt="" /></div>
+          <div class="card"><img id="sideCard3" src="" alt="" /></div>
+          <div class="card"><img id="sideCard4" src="" alt="" /></div>
+          <div class="card"><img id="sideCard5" src="" alt="" /></div>
         </div>
         <div class="board">
           <div class="card"><img src="" alt="" /></div>
@@ -33,13 +33,13 @@
         </div>
 
         <div class="sidebar right">
-          <div class="card"><img src="" alt="" /></div>
-          <div class="card"><img src="" alt="" /></div>
-          <div class="card"><img src="" alt="" /></div>
-          <div class="card"><img src="" alt="" /></div>
+          <div class="card"><img id="sideCard6" src="" alt="" /></div>
+          <div class="card"><img id="sideCard7" src="" alt="" /></div>
+          <div class="card"><img id="sideCard8" src="" alt="" /></div>
+          <div class="card"><img id="sideCard9" src="" alt="" /></div>
         </div>
       </div>
-      <button>다시하기</button>
+      <button type="button" onclick="puzzleInit()">다시하기</button>
     </section>
   </body>
 </html>
