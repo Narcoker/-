@@ -1,0 +1,14 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* board */
+    .board > .card {
+      float: left;
+      width: 20vw;
+      height: 20vw;
+      margin: 2px;
+    }
+    /* sidebar */
+    .sidebar > .card {
+      width: 12vw;
+      height: 12vw;
+    }
+  }

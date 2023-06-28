@@ -1,0 +1,31 @@
+@media (max-width: 767px) {
+  /* section */
+  section h1 {
+    font-size: 36px;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  /* sidebar */
+  .sidebar {
+    display: flex;
+    gap: 5px;
+  }
+  .sidebar > .card {
+    width: 16vw;
+    height: 16vw;
+  }
+  /* board */
+  .board > .card {
+    float: left;
+    width: 22vw;
+    height: 22vw;
+    margin: 2px;
+  }
+  .sidebar.left {
+    order: 1;
+  }
+  .sidebar.right {
+    order: 2;
+  }
+}
