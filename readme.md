@@ -1,5 +1,7 @@
 ## 퍼즐 맞추기 게임 with 바닐라 JS
 
+![Alt text](image-1.png)
+
 ### 링크
 
 [퍼즐 맞추기 게임 with 바닐라 JS](https://narcoker.github.io/PuzzleGame-with-VanillaJS/)
